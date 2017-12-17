@@ -5,6 +5,9 @@
 This repository contains a simple demo API built with NodeJS.
 The API is used to manage users in a MongoDB database.
 
+# Docker
+Run the containers using `sh ./run_containers.sh`. This runs the application and database bash scripts which execute the docker commands. As the case may be, you may require to use `sudo` to run the command. Ex. `sudo sh ./run_containers.sh`.
+
 ### Development
 This application was developed using [ExpressJS](http://expressjs.com/). MongoDB was used for persisting data with [Mongoose](https://mongoosejs.com/) as [ORM](https://en.wikipedia.org/wiki/Object-relational_mapping).
 
